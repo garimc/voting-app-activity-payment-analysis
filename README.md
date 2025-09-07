@@ -94,7 +94,7 @@ jupyter lab
 ```
 
 5. 노트북 열기 및 실행 (Open and run the notebook)
-- [’voting-app-activity-payment-analysis.ipynb`](./voting-app-activity-payment-analysis.ipynb)
+- [`voting-app-activity-payment-analysis.ipynb`](./voting-app-activity-payment-analysis.ipynb)
 - 파일을 열고 위에서부터 차례대로 실행합니다.
 - Execute all cells (top → bottom)
 

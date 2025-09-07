@@ -1,8 +1,8 @@
 # Voting app activity payment analysis - 유저 활동 일수 및 결제율 향상을 위한 핵심 요인 분석
 
-![Image]([https://instinctive-milk-d9b.notion.site/image/attachment%3A46b16c1e-ac96-47d5-a7ca-130dc86f1bd5%3A청소년_익명_투표_2.png?table=block&id=2629d974-08e6-8046-b7a1-c6698ba81d96&spaceId=f80357d3-0f5e-4223-be11-6f5365fc1458&width=1380&userId=&cache=v2](https://instinctive-milk-d9b.notion.site/image/attachment%3A46b16c1e-ac96-47d5-a7ca-130dc86f1bd5%3A%E1%84%8E%E1%85%A5%E1%86%BC%E1%84%89%E1%85%A9%E1%84%82%E1%85%A7%E1%86%AB_%E1%84%8B%E1%85%B5%E1%86%A8%E1%84%86%E1%85%A7%E1%86%BC_%E1%84%90%E1%85%AE%E1%84%91%E1%85%AD_2.png?table=block&id=2629d974-08e6-8046-b7a1-c6698ba81d96&spaceId=f80357d3-0f5e-4223-be11-6f5365fc1458&width=1380&userId=&cache=v2))
+![Image](https://instinctive-milk-d9b.notion.site/image/attachment%3A46b16c1e-ac96-47d5-a7ca-130dc86f1bd5%3A%E1%84%8E%E1%85%A5%E1%86%BC%E1%84%89%E1%85%A9%E1%84%82%E1%85%A7%E1%86%AB_%E1%84%8B%E1%85%B5%E1%86%A8%E1%84%86%E1%85%A7%E1%86%BC_%E1%84%90%E1%85%AE%E1%84%91%E1%85%AD_2.png?table=block&id=2629d974-08e6-8046-b7a1-c6698ba81d96&spaceId=f80357d3-0f5e-4223-be11-6f5365fc1458&width=1380&userId=&cache=v2)
 
-![image]([https://instinctive-milk-d9b.notion.site/image/attachment%3A364398ac-efb6-47fd-a227-c35a6a4fa024%3A청소년_익명_투표_3.jpg?table=block&id=2629d974-08e6-80bd-8062-ee1ea131dd71&spaceId=f80357d3-0f5e-4223-be11-6f5365fc1458&width=1380&userId=&cache=v2](https://instinctive-milk-d9b.notion.site/image/attachment%3A364398ac-efb6-47fd-a227-c35a6a4fa024%3A%E1%84%8E%E1%85%A5%E1%86%BC%E1%84%89%E1%85%A9%E1%84%82%E1%85%A7%E1%86%AB_%E1%84%8B%E1%85%B5%E1%86%A8%E1%84%86%E1%85%A7%E1%86%BC_%E1%84%90%E1%85%AE%E1%84%91%E1%85%AD_3.jpg?table=block&id=2629d974-08e6-80bd-8062-ee1ea131dd71&spaceId=f80357d3-0f5e-4223-be11-6f5365fc1458&width=1380&userId=&cache=v2))
+![image](https://instinctive-milk-d9b.notion.site/image/attachment%3A364398ac-efb6-47fd-a227-c35a6a4fa024%3A%E1%84%8E%E1%85%A5%E1%86%BC%E1%84%89%E1%85%A9%E1%84%82%E1%85%A7%E1%86%AB_%E1%84%8B%E1%85%B5%E1%86%A8%E1%84%86%E1%85%A7%E1%86%BC_%E1%84%90%E1%85%AE%E1%84%91%E1%85%AD_3.jpg?table=block&id=2629d974-08e6-80bd-8062-ee1ea131dd71&spaceId=f80357d3-0f5e-4223-be11-6f5365fc1458&width=1380&userId=&cache=v2)
 
 ---
 
@@ -45,7 +45,7 @@ This project was initiated to address the issue of **low retention and payment r
 ## What’s inside:
 
 - 분석 통합 파일 (Main Notebook): [`voting-app-activity-payment-analysis`](./voting-app-activity-payment-analysis.ipynb)
-- 프로젝트 보고서 파일 (Full Write-up): [/reports/summary.md`](./reports/summary.pdf)
+- 프로젝트 보고서 파일 (Full Write-up): [`reports/report.pdf`](./reports/report.pdf)
 - 데이터 설명 (Data Dictionary): [`data/data_dictionary.md`](./data/data_dictionary.md)
 
 ---
@@ -57,7 +57,7 @@ voting-app-activity-payment-analysis/
 ├─ README.md
 ├─ voting-app-activity-payment-analysis.ipynb
 ├─ reports/
-│ └─ summary.pdf
+│ └─ report.pdf
 ├─ data/
 │ └─ data_dictionary.md 
 └─ requirements.txt
@@ -74,31 +74,31 @@ git clone <https://github.com/garimc/voting-app-activity-payment-analysis.git>
 cd voting-app-activity-payment-analysis
 ```
 
-1. 가상환경 생성 및 활성화 (선택) (Create a virtual environment (optional))
+2. 가상환경 생성 및 활성화 (선택) (Create a virtual environment (optional))
 
 ```
 python -m venv .venv
 source .venv/bin/activate
 ```
 
-1. 필요한 패키지 설치 (Install dependencies)
+3. 필요한 패키지 설치 (Install dependencies)
 
 ```
 pip install -r requirements.txt
 ```
 
-1. 주피터 실행 (Run Jupyter Lab / Notebook)
+4. 주피터 실행 (Run Jupyter Lab / Notebook)
 
 ```
 jupyter lab
 ```
 
-1. 노트북 열기 및 실행 (Open and run the notebook)
+5. 노트북 열기 및 실행 (Open and run the notebook)
 - [’voting-app-activity-payment-analysis.ipynb`](./voting-app-activity-payment-analysis.ipynb)
 - 파일을 열고 위에서부터 차례대로 실행합니다.
 - Execute all cells (top → bottom)
 
-### ⚠️ 주의
+### ⚠️ Caution
 
 - 코드와 분석 로직은 동일하게 실행할 수 있지만, 데이터가 없으므로 결과(숫자·그래프)는 재현되지 않습니다.
 - Without the dataset, all analysis steps can be executed, but outputs (figures and numbers) cannot be reproduced.

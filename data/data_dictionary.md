@@ -34,38 +34,60 @@
 
 - 유저 단위
 
-| is_high_attendance | 평균활동일수 7일 이상 여부
-(KPI) | pay_or_not | 결제 여부
-(KPI) |
-| --- | --- | --- | --- |
-| attendance_count | 활동 일수 | ques_count | 참여한 질문 세트 수 |
-| vote_count | 투표 참여 횟수 | chosen_count | 투표를 선택받은 횟수 |
-| view_count | 질문 조각에 등장한 횟수 | total_paid_points | 총 재화 사용 금액  |
-| school_id | 학교 id | question_skip_ratio | 스킵 비율 |
-| group_id | 학급 id | vote_open_count | 투표 열어본 횟수 |
-| school_type | 학교 형태(중 / 고) | is_push_on | 알림 ON 여부 |
-| student_count | 학교 학생 수 | block_count | 차단 횟수 |
-| gender_encoded | 성별 | blocked_count | 차단 받은 횟수 |
-| friend_count | 친구 수 | report_count | 신고 받은 횟수 |
-| is_question_skip | 스킵 여부 |  |  |
+| 변수명                   | 설명                    |
+| --------------------- | --------------------- |
+| is\_high\_attendance  | 평균활동일수 7일 이상 여부 (KPI) |
+| pay\_or\_not          | 결제 여부 (KPI)           |
+| attendance\_count     | 활동 일수                 |
+| ques\_count           | 참여한 질문 세트 수           |
+| vote\_count           | 투표 참여 횟수              |
+| chosen\_count         | 투표를 선택받은 횟수           |
+| view\_count           | 질문 조각에 등장한 횟수         |
+| total\_paid\_points   | 총 재화 사용 금액            |
+| school\_id            | 학교 id                 |
+| question\_skip\_ratio | 스킵 비율                 |
+| group\_id             | 학급 id                 |
+| vote\_open\_count     | 투표 열어본 횟수             |
+| school\_type          | 학교 형태(중 / 고)          |
+| is\_push\_on          | 알림 ON 여부              |
+| student\_count        | 학교 학생 수               |
+| block\_count          | 차단 횟수                 |
+| gender\_encoded       | 성별                    |
+| blocked\_count        | 차단 받은 횟수              |
+| friend\_count         | 친구 수                  |
+| report\_count         | 신고 받은 횟수              |
+| is\_question\_skip    | 스킵 여부                 |
+
 - 학교 단위
 
-| is_high_attendance | 평균활동일수 7일 이상 여부
-(KPI) | is_high_pay_ratio | 결제율 0.1 이상 여부
-(KPI) |
-| --- | --- | --- | --- |
-| school_id | 학교 id | modularity | 분절도 |
-| school_type | 학교 형태(중 / 고) | density | 밀도 |
-| user_count | 학교 유저 수 | mean_attendance_count | 평균 활동 일수 |
-| gender_ratio | 남성 비율 | mean_lifecycle | 평균 생명주기 |
-| mean_friend_count | 평균 친구 수 | total_pay_amount | 총 충전 포인트 |
-| avg_clustering | 평균 clustering coef | total_pay_count | 총 결제횟수 |
-| mean_ques_count | 평균 참여한 질문 세트 수 | pay_user_count | 총결제자수 |
-| mean_chosen_count | 평균 선택받은 횟수 | pay_ratio | 결제율 |
-| mean_vote_open_count | 평균 투표 열어본 횟수 | mean_vote_count | 평균 투표 참여 횟수 |
-| mean_block_count/
-mean_blocked_count | 평균 차단(차단 받은) 횟수 | mean_question_skip_ratio | 평균 스킵 비율 |
-| mean_report_count | 평균 신고 받은 횟수 | mean_is_push_on | 평균 알림 ON 비율 |
+| 변수명                                       | 설명                    |
+| ----------------------------------------- | --------------------- |
+| is\_high\_attendance                      | 평균활동일수 7일 이상 여부 (KPI) |
+| is\_high\_pay\_ratio                      | 결제율 0.1 이상 여부 (KPI)   |
+| school\_id                                | 학교 id                 |
+| modularity                                | 분절도                   |
+| school\_type                              | 학교 형태(중 / 고)          |
+| density                                   | 밀도                    |
+| user\_count                               | 학교 유저 수               |
+| mean\_attendance\_count                   | 평균 활동 일수              |
+| gender\_ratio                             | 남성 비율                 |
+| mean\_lifecycle                           | 평균 생명주기               |
+| mean\_friend\_count                       | 평균 친구 수               |
+| total\_pay\_amount                        | 총 충전 포인트              |
+| avg\_clustering                           | 평균 clustering coef    |
+| total\_pay\_count                         | 총 결제횟수                |
+| mean\_ques\_count                         | 평균 참여한 질문 세트 수        |
+| pay\_user\_count                          | 총 결제자 수               |
+| mean\_chosen\_count                       | 평균 선택받은 횟수            |
+| pay\_ratio                                | 결제율                   |
+| mean\_vote\_open\_count                   | 평균 투표 열어본 횟수          |
+| mean\_vote\_count                         | 평균 투표 참여 횟수           |
+| mean\_block\_count                        | 평균 차단한 횟수      |
+| mean\_blocked\_count                      | 평균 차단 받은 횟수      |
+| mean\_question\_skip\_ratio               | 평균 스킵 비율              |
+| mean\_report\_count                       | 평균 신고 받은 횟수           |
+| mean\_is\_push\_on                        | 평균 알림 ON 비율           |
+
 
 ### 전처리 요약
 
